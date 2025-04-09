@@ -29,10 +29,10 @@ const Features = () => {
   return (
     <div className='overflow-x-hidden mt-35' id="Fea"> 
         <div className='features xl:flex justify-between gap-30 mt-4  0'>
-            <h1 className='max-md:w-70 sm:text-center sm:mx-auto xl:mx-0 max-lg:text-center max-md:text-left xl:text-5xl md:text-5xl md:mx-auto lg:text-center xl:text-left lg:mx-auto text-white font-medium leading-14 lg:w-150 sm:w-100 max-md:w-100 md:w-150 max-md:text-xl text-left'>You do the buisness, we'll handle the money.
+            <h1 className='max-md:w-50 sm:text-center sm:mx-auto xl:mx-0 max-lg:text-center max-md:text-left xl:text-5xl md:text-5xl md:mx-auto lg:text-center xl:text-left lg:mx-auto text-white font-medium leading-14 lg:w-150 sm:w-100 max-md:w-70 md:w-100 max-md:leading-7 max-md:text-2xl text-left'>You do the buisness, we'll handle the money.
                 <br />
                 <span className='max-lg:flex md:w-150 max-lg:text-center'>
-              <p className='max-md:text-left sm:text-center sm:mx-auto lg:text-center xl:text-left max-lg:text-center md:mx-auto text-gray-600 text-left mt-8 max-md:text-[10px] text-[16px] leading-7'>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+              <p className='max-md:text-left sm:text-center sm:mx-auto lg:text-center xl:text-left max-lg:text-center md:mx-auto text-gray-600 text-left mt-8 max-md:text-[14px] text-[16px] leading-7 max-md:w-70 max-md:leading-5'>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
               </span>
               <button className='mt-10 btn text-[16px] leading-8'>Get Started</button>
             </h1>

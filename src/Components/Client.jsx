@@ -73,7 +73,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
     <div className='mt-60' id='Cli'>
         <div className='client-heading flex justify-between max-lg:flex-col'>
             <h1 className='max-md:w-70 text-white text-5xl w-120 leading-14 text-left max-lg:mx-auto max-lg:text-center max-md:text-left  max-md:leading-6 max-md:text-xl'>What people are saying about us</h1>
-            <p className='text-gray-400 items-center my-auto text-left w-120 max-lg:mt-10 max-lg:mx-auto max-lg:text-center max-md:text-left max-md:text-[10px] text-xl max-md:w-70'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+            <p className='text-gray-400 items-center my-auto text-left w-120 max-lg:mt-10 max-lg:mx-auto max-lg:text-center max-md:text-left max-md:text-[10px] text-xl max-md:w-70 max-md:text-[15px]'>Everything you need to accept card payments and grow your business anywhere on the planet.</p>
         </div>
         <div className='cards flex flex-wrap border-none justify-center gap-13 max-md:gap-0' >
         <div className='crd mt-30 w-[370px] h-[395px]  p-10 border-1 border-gray-800 rounded-2xl'>

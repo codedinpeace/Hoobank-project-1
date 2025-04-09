@@ -26,11 +26,11 @@ const Hero = () => {
 
   return (
     <div className='hero flex justify-start' id='Home'>
-        <div className='dicount justify-center align-middle discount max-sm:mt-[-120px] sm:mt-[-80px] md:mt-35 z-[-5]'>
+        <div className='dicount max-md:w-70 justify-center align-middle discount max-sm:mt-[-120px] sm:mt-[-80px] md:mt-35 z-[-5]'>
           <p className='discount-card max-sm:w-[280px] max-sm:text-[13px] sm:text-[13px] lg:text-[16px]  sm:w-[280px] max-md:w-[500px] md:w-[408px] lg:w-[408px] md:text-[16px] h-[40px] align-middle pt-2 text-gray-500'><span className='text-white'>20%</span> DISCOUNT FOR <span className='text-white'>1 MONTH</span> ACCOUNT</p>
           <div className='sm:flex-col max-md:flex-col md:flex-row lg:flex-row max-sm:flex-col tagline flex lg:text-6xl md:text-5xl max-sm:text-4xl sm:text-4xl max-sm:flex gap-40'>
-          <h1 className=' lg:w-150 text-left mt-10 text-white md:w-150 md:leading-17 md:text-left lg:leading-22 max-sm:w-90 max-sm:leading-15 sm:w-90 sm:leading-15 '>The Next <span>Generation</span> Payment Method</h1>
-          <span className='md:hidden text-[16px] mt-[-130px] w-80 leading-5 text-left text-gray-600 font-light'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
+          <h1 className='max-md:text-2xl lg:w-150 text-left mt-10 text-white md:w-150 md:leading-17 md:text-left lg:leading-22 max-md:w-60 max-sm:leading-8 sm:w-90 sm:leading-15 '>The Next <span>Generation</span> Payment Method</h1>
+          <span className='md:hidden text-[16px] mt-[-130px] max-md:w-70 w-80 leading-7 text-left text-gray-600 font-light max-md:text-[15px]'>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
           We examine annual percentage rates, annual fees.</span>
          <div className="flex overflow-x-hidden">
   <img
