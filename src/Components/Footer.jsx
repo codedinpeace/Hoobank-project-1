@@ -14,9 +14,9 @@ const Footer = () => {
             </span>
         </div>
         <div className=''>
-        <div className='mt-50 flex  justify-between max-md:flex-col '>   
+        <div className='mt-50 flex justify-between max-md:flex-col '>   
             <img src={assets.logo} alt="" className='mt-5 max-md:w-50' />
-        <div className='flex text-white mt-13 text-xl justify-around underline-offset-2 max-md:gap-15 max-md:text-[10px] '>
+        <div className='flex text-white md:gap-20 mt-13 text-xl justify-around underline-offset-2 max-md:gap-15 max-md:text-[10px] '>
         <a   className='underline-offset-2 hover:text-blue-300' href="#Home">Home</a>
           <a  className='underline-offset-2 hover:text-blue-300' href="#Fea">Features</a>
           <a className='underline-offset-2 hover:text-blue-300'  href="#Pro">Product</a>
