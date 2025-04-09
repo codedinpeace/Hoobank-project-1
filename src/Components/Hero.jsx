@@ -36,7 +36,7 @@ const Hero = () => {
   <img
     src={assets.robot}
     alt=""
-    className="w-full max-w-[300px] xl:w-[500px] lg:w-[300px] md:w-[500px] sm:w-[250px] xs:w-[200px]"
+    className="w-full max-md:w-[300px] xl:w-[500px] lg:w-[300px] md:w-[500px] sm:w-[250px] xs:w-[200px]"
   />
 </div> 
           </div>
