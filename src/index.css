@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+body{
+    background: #00040f;
+    overflow-x: hidden;
+}
+
+html, body {
+    overflow-x: hidden;
+  }
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #00040f; /* Dark background */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#def9fa, #b3f3f5, #9dedf0,#7de7eb,#5ce1e6, #33bbcf);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+ 
+*{
+    font-family: "Poppins";
+}
+
+.mobile-layout {
+    background: linear-gradient(#ffffff49, #14101d80);
+    backdrop-filter: blur(30px);
+    color: white;
+}
+
+.discount p{
+    background: linear-gradient(#272727, #11101d);
+    border-radius: 10px;
+}
+
+.tagline{
+    line-height: 90px;
+    font-weight: 600;
+}
+
+
+.tagline h1 span{
+    color: transparent;
+    background: linear-gradient(#def9fa, #b3f3f5, #9dedf0,#7de7eb,#5ce1e6, #33bbcf);
+    background-clip: text;
+}
+
+.CTA{
+    background: transparent ;
+    font-size: 1.3rem;
+    border: 4px solid #33bbcf;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}   
+
+.CTA button:hover{
+    background: linear-gradient(#def9fa, #b3f3f5, #9dedf0,#7de7eb,#5ce1e6, #33bbcf);
+    width: full;
+    border: #00040f;
+    color: black;
+    /* font-weight: 600; */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.trust h1 span{
+    background:  linear-gradient(#def9fa, #b3f3f5, #9dedf0,#7de7eb,#5ce1e6, #33bbcf);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.btn{
+    background: linear-gradient(#def9fa, #b3f3f5, #9dedf0,#7de7eb,#5ce1e6, #33bbcf);
+    width: full;
+    border: #00040f;
+    color: black;
+    /* font-weight: 600; */
+    cursor: pointer;
+    
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    
+}
+
+.star{
+    background-color: #021341b3;
+    border: none;
+}
+
+.crd:hover{
+    background: linear-gradient(#272727, #11101d);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.btn-2 button{
+    background: linear-gradient(#def9fa, #b3f3f5, #9dedf0,#7de7eb,#5ce1e6, #33bbcf);
+    border: #00040f;
+    color: black;
+    /* font-weight: 600; */
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 30px;
+    
+}
+
+a.active{
+    color: #33bbcf;
+}
+
+.crd-2{
+    background: linear-gradient(#272727, #11101d);
+    border-radius: 20px;
+}
+/* .navlinks a{
+    font-weight: 400;
+}
+
+.discount{
+    width: 408px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(#272727, #11101d);
+}
+
+.tagline-2{
+    color: white;
+    font-weight: 600;
+}
+
+.tagline-2 span{
+    background: radial-gradient(#def9fa, #bef3f5, #9dedf0, #7de7eb, #5ce1e6, #33bbcf);
+    background-clip: text;   
+    color: transparent;
+}
+
+.diddy p{
+    background: radial-gradient(#def9fa, #bef3f5, #9dedf0, #7de7eb, #5ce1e6, #33bbcf);
+    background-clip: text;   
+    color: transparent; 
+}
+
+.diddy{
+   cursor: pointer;
+    border: 4px solid #5ce1e6 ;
+} */
